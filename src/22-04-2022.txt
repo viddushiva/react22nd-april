@@ -1,0 +1,45 @@
+What do you understand by Virtual DOM? Explain its working.
+ans:in react when component mounting a real dom is created .
+along with real dom two  virtual doms also created ,
+in this one is exactly copy of real dom and 
+when we want to update a state or props for that
+we click any button that changes are done in
+another v.dom so these two v.doms compared with each other 
+this is called diffing algorithm.then that changes updated in real dom 
+this total process is called recoincilation 
+
+
+
+Why can’t browsers read JSX?
+because browser read only es5 javascript but jsx is a es6 so it cant 
+understand thats why we use babel that is a transcompiler which converts advance js to pure js
+
+
+What is the purpose of render() in React.
+in react 2 types of components are present functional and class.
+in functional componemt the whole component itself responsible for mounting phase 
+but in class render only responsible for mounting
+Differentiate between states and props.
+states and props are used for data flow
+states are smart components because state get updated dynamically
+but props are dumb they are only static
+in state data pass in that component only, but props data flow through parents
+
+
+
+
+
+How can you update the state of a component?
+we can update the state in class component by setstate method using any function
+but in function component we use an usestate hook
+
+
+
+Explain the lifecycle methods of React components in detail.
+in react 3 methods are there they are mounting,updating,unmounting.
+mounting:when an instance that dom get created first time 
+in this 3 phases are there constructor ,render,componentdidmount
+updating:when ever we click button or navbar like that the componenet re-render that is updating phase 
+in this mainly used 2 phases they are render,componentdidupdate
+unmounting:when ever componenet did die or component will remove from dom 
+in this only phase componentwillunmount is present it invoke immediately after removing component
