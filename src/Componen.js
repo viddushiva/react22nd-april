@@ -1,10 +1,10 @@
 import React, { useState } from "react"
 function Componen (props){
- const [count,setCount] = useState("a")
+ const [count,setCount] = useState("anuj ")
  const [coun,setCoun] = useState({name:"shiva",age:999})
 
   const change=()=>{
-setCount("b")
+setCount("bharat")
   }
   const chang=()=>{
       setCoun((qw)=>({
