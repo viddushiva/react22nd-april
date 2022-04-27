@@ -19,7 +19,7 @@ setCount("b")
 
  
         <button onClick={change}>functi click</button><br/>
-        <button onClick={chang}>functi click</button><br/>
+        <button onClick={chang}>new click</button><br/>
 
         </>
     )

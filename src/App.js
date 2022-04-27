@@ -3,6 +3,7 @@ import './App.css';
 
 import Componen from './Componen';
 import Classy from './Classy';
+import Useeff from './Useeff'
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
     <Componen custom="shiva"/>
     <Componen custom="viddu"/>
     <Classy bert="nadal"/>
+    <Useeff/>
 
     </div>
   );
